@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill & Bun</title>
+     <style>
+        body
+        {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar
+        {
+            background-color: black;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo
+        {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-left: 5px;
+        }
+        .nav-links a
+        {
+            color: white;
+            text-decoration: none;
+            margin:25px;
+            font-weight: bold;
+            font-size: 18px;
+            padding-right: 10px;
+        } 
+        .navbar a:hover {
+            color: #ff6347; /* Tomato color on hover */
+            text-decoration:underline; /* Wavy underline effect */
+        }
+        /* hero section banner */
+        .hero
+        {
+            background-image: url(hero\ bg\ 1.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 720px;
+            display: flex;
+            align-items: center;
+        }
+        .hero-text
+        {
+            color: #ff6347;
+            margin-left: 400px;
+            letter-spacing: 1px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 43px;
+            padding:0px;
+            margin-right: 20px;
+            text-transform: uppercase;
+        } 
+        .hero-text h1
+        {
+            padding: 0px;
+        }
+        .hero-text p
+        {
+            font-size: 35px;
+            margin: 5px;
+            padding-bottom: 20px;
+        }
+        .hero-text input[type="button"]
+        {
+            background-color: rgb(44, 183, 44);
+            color: rgb(255, 255, 255);
+            border-radius: 20px;
+            width: 200px;
+            height: 70px;
+            padding: 0px;
+            margin-left: 280px;
+            text-transform: capitalize;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .hero-text input[type="button"]:hover
+        {
+            background-color: rgb(161, 15, 10);
+            cursor: pointer;
+        }
+     </style>
+</head>
+<body>
+     <nav>   <!--Nav bar starts here -->
+        <div class="navbar">
+        <div class="logo">Grills&bun</div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="discount.html">Discount</a>
+            <a href="about.html">Contact Us</a>
+        </div>
+        </div>
+     </nav>   <!--Nav bar ends here -->
+     <div class="hero">
+        <div class="hero-img">
+            <img src="burger banner.PNG" alt="Burger Banner" style="width:700px;padding:10px; padding-top: 50px;"> 
+        </div>
+        <div class="hero-text">
+            <h1>Hot spicy<br> chicken Burger</h1>
+            <p>Flat 20% dicount on first order</p>
+            <input  type="button" value="Order Now">
+        </div>
+     </div>
+</body>
+</html>

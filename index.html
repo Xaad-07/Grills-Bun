@@ -88,9 +88,92 @@
         }
         .hero-text input[type="button"]:hover
         {
-            background-color: rgb(161, 15, 10);
+            background-color: rgb(214, 63, 8);
             cursor: pointer;
         }
+        /* Card details section */
+        .card-details {
+            text-align: center;
+        }
+        .card-details h2 {
+            font-size: 40px;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .card-details p {
+            text-align: center;
+            font-size: 20px;
+            color: #333;
+            
+            margin-top: 0px;
+            text-transform: capitalize;
+            
+            
+        }
+        /* Food Cards Section */
+.food-section {
+    display: flex; /* Row layout */
+    justify-content: center; /* Center row */
+    gap: 40px; /* Space between cards */
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.food-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 290px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+    height: max-content;
+  
+}
+.food-card input[type="button"] {
+    background-color: rgb(44, 183, 44);
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.food-card input[type="button"]:hover {
+    background-color: rgb(214, 63, 8);
+    cursor: pointer;
+}
+
+.food-card img {
+    width: 100%;
+    height: 300px; /* Fixed height for uniformity */
+    object-fit: cover; /* Fits image nicely */
+    border-radius: 10px;
+    display: block;
+}
+
+.food-card:hover {
+    transform: scale(1.05); /* Slight zoom */
+}
+
+.food-card h3 {
+    margin-top: 25px;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.food-card p {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    
+}
      </style>
 </head>
 <body>
@@ -115,5 +198,30 @@
             <input  type="button" value="Order Now">
         </div>
      </div>
+     <div class="card-details">
+        <div class="spacial"><h2>Our Spacial Dish</h2></div>
+        <div><strong><p>Chek Out our recomended dishesh you would definetly like this.</p></strong></div>
+     </div>
+     <!-- Food Cards Section -->
+<div class="food-section">
+    <div class="food-card">
+        <img src="pizza.jpg" alt="Burger">
+        <h3>Pizza</h3>
+       <p>Cheesy, hot, and loaded Pizza with fresh toppings.</p>
+       <input type="button" value="Order Now">
+    </div>
+    <div class="food-card">
+        <img src="pasta.jpg" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>Creamy pasta tossed in rich Italian sauce.</p>
+        <input type="button" value="Order Now">
+    </div>
+    <div class="food-card">
+        <img src="tacos.jpg" alt="Tacos">
+        <h3>Tacos</h3>
+        <p>Freshly made tacos to spice up your day.</p>
+        <input type="button" value="Order Now">
+    </div>
+</div>
 </body>
 </html>

@@ -33,7 +33,7 @@ body {
 }
 /* hero section banner */
 .hero {
-    background-image: url(hero\ bg\ 1.jpg);
+    background-image: url(/Imeges/hero\ bg\ 1.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;

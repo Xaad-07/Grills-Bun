@@ -156,14 +156,18 @@ body {
     margin-top: 0px;
 }
 /* menu page css */
-.menu-container {
+.menu-container
+{
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 40px;
+    padding-top: 0px;
     background-color: #ffffff;
+   flex-wrap: wrap;
 }
-.menu-container h3 {
+.menu-container h3
+ {
     font-size: 40px;
     color: #010101;
     margin-top: 10px;
